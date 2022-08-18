@@ -1,0 +1,82 @@
+body{
+	font: 16px/28px calibri, arial;
+	color: black;
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+	background-color: firebrick;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;	
+	text-align: center;
+}
+
+.menu{
+	background-color: transparent;
+	display: inline-block;
+	width: 100%;
+	border-bottom : solid firebrick;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: red;
+	padding: 20px;
+}
+
+.menu a:hover{
+	background-color: firebrick;
+	color: white;
+}
+
+
+.content{
+	padding: 20px;
+}
+
+.content .h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: firebrick;
+    padding: 5px;
+}
+
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}		
+.img{
+	margin-top: 10px;
+	text-align: center;
+}
+.img img{
+	border-radius: 50%;
+}
+.about {
+	text-align: center;
+}
+.tentang {
+	text-align: center;
+}
